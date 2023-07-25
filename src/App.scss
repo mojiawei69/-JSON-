@@ -1,0 +1,34 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#monacoInstance {
+  width: 50%;
+  height: 80vh;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.header{
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 4px 4px 5px #ebedee;
+  border-bottom: 1px solid rgba(218, 218, 218,.5);
+  justify-content: space-between;
+}
+
+.group{
+  margin-right: 200px;
+}

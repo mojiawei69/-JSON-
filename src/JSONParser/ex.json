@@ -1,0 +1,39 @@
+{
+  "items": [{
+      "@repeat(15)": {
+          "name": "#String(10)",
+          "age": "#Number(10)",
+          "id": "@Item",
+          "addr": [ "@repeat(#imgSrc,10)" ],
+          "arr": [{
+              "@repeat(20)": {
+                  "name": "#String(10)",
+                  "age": "#Number(10)",
+                  "src": "#src",
+                  "item": [{
+                      "@repeat(2)": {
+                          "name": "#String(10)",
+                          "age": "#Number(10)",
+                          "src": "#src"
+                      }
+                  }]
+              }
+          }]
+      }
+  }],
+  "item": [ "@repeat(#imgSrc,10)" ],
+  "list": [{
+      "@repeat( 10 )": {
+          "name": "#String(10)",
+          "addr": [{
+                  "@repeat(2)": {
+                      "name": "#String(10)",
+                      "age": "#Number(10)",
+                      "src": "#src"
+                  }
+              }],
+          "id": "@Item",
+          "age": "#Number(10)"
+      }
+  }]
+}
