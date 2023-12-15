@@ -112,7 +112,7 @@ export default function Generate(JSONStr: string): string {
 
   const rand = (T: RandType, num?: number) => {
     if(T === "ImgSrc"){
-      return "https://img2.baidu.com/it/u=617579813,2960860841&fm=253&app=120&size=w931&n=0&f=JPEG&fmt=auto?sec=1671210000&t=d40644cc6ba39198fd0cadcfdddfeb2c";
+      return "http://124.220.176.205:8080/image/96b3f57be93ec074cf1e98d134b36abe.jpg";
     }else if(T === "Src"){
       return "https://regexr.com/74kh0";
     }else if(T === "Number" && num){
